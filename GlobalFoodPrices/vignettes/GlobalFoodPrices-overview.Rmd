@@ -1,0 +1,36 @@
+---
+title: "GlobalFoodPrices-overview"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{GlobalFoodPrices-overview}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+```{r}
+library(GlobalFoodPrices)
+library(dplyr) # Load dplyr to enable the %>% operator
+```
+
+
+## Example: Calculating Average Expenditure
+
+```{r, eval = FALSE}
+avg_expenditure <- calculate_yearly_avg_expenditure(cleaned_food_expenditure, year = 2020)
+print(avg_expenditure)
+```
+
+
+```{r}
+# Uncomment to launch the Shiny app (interactive use only)
+# launch_shiny_app()
+```
+

@@ -3,4 +3,5 @@
 export(calculate_expenditure_growth)
 export(calculate_yearly_avg_expenditure)
 export(identify_high_price_countries)
+export(launch_shiny_app)
 export(summarize_high_food_prices)

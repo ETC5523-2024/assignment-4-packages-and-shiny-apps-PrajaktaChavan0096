@@ -17,3 +17,7 @@ LazyData: true
 Imports:
     dplyr,
     tidyr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
