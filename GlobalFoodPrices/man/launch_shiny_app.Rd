@@ -7,5 +7,5 @@
 launch_shiny_app()
 }
 \description{
-This function launches the Shiny app for exploring food price data.
+This function launches the Shiny app for exploring global food price data.
 }
