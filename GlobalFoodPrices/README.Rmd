@@ -65,8 +65,8 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 Contributions are welcome! Feel free to fork the repository, submit pull requests, or report issues to help improve the package.
 
 ## Documentation
-For full documentation and tutorials, visit the pkgdown site here: GlobalFoodPrices Documentation
 
+For detailed usage instructions, please refer to the [GlobalFoodPrices Overview](https://ETC5523-2024.github.io/assignment-4-packages-and-shiny-apps-PrajaktaChavan0096/articles/GlobalFoodPrices-overview.html).
 
 ### Key Sections Updated
 
