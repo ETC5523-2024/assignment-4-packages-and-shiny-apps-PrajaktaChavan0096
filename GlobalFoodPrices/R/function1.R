@@ -6,6 +6,7 @@
 #' @param year An integer representing the year for which to calculate the average.
 #' @return A numeric value representing the average food expenditure for the specified year.
 #' @export
+
 calculate_yearly_avg_expenditure <- function(data, year) {
   data %>%
     filter(Year == year) %>%
