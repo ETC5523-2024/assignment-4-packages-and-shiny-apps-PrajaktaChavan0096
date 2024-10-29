@@ -1,0 +1,44 @@
+---
+title: "GlobalFoodPrices-overview"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{GlobalFoodPrices-overview}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Overview of the GlobalFoodPrices Package
+The GlobalFoodPrices package provides tools for analyzing global food expenditure data and the proportion of countries experiencing high food prices. This vignette demonstrates how to use the key functions in the package.
+
+## Loading Required Libraries
+```{r}
+library(GlobalFoodPrices)
+library(dplyr) # Load dplyr to enable the %>% operator
+
+```
+
+## Example: Calculating Average Expenditure
+You can calculate the average food expenditure for a specific year using the following function:
+```{r}
+avg_expenditure <- calculate_yearly_avg_expenditure(cleaned_food_expenditure, year = 2020)
+print(avg_expenditure)
+
+```
+
+## Example: Launching the Shiny App
+To interactively explore the data, you can launch the Shiny app:
+```{r}
+# Uncomment to launch the Shiny app (interactive use only)
+# launch_shiny_app()
+
+```
+
+## Conclusion
+This vignette provides a brief overview of the GlobalFoodPrices package. You can explore further functions and analyses in the reference documentation and through the interactive Shiny app.
